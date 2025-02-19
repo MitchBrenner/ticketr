@@ -19,6 +19,7 @@ import {
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
+import PurchaseTicket from "./PurchaseTicket";
 
 function EventCard({ eventId }: { eventId: Id<"events"> }) {
   const { user } = useUser();
